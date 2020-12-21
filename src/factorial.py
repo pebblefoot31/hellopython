@@ -1,15 +1,16 @@
-#editing
+"""
+This program computes the factorial of a number.
+"""
 def factorial(number):
-    answer = 1
+    """
+    This function implements factorial.
+    """
+    result = 1
 
     while number > 1:
-        answer *= number
+        result *= number
         number -= 1
 
-    return answer
+    return result
 
-answer = factorial(4)
-
-print(answer)
-
-
+print(factorial(4))
