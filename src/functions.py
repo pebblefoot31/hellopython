@@ -64,52 +64,55 @@ def w(x):
     n.write('\n')
     n.close()
 
+def main():
 
-print('calling square')
-print(square(5))
-print(square(6))
+    print('calling square')
+    print(square(5))
+    print(square(6))
 
-print('calling cube')
-print(cube(2))
-print(cube(3))
+    print('calling cube')
+    print(cube(2))
+    print(cube(3))
 
-print('calling lbs')
-print(lbs(2))
-print(lbs(1))
+    print('calling lbs')
+    print(lbs(2))
+    print(lbs(1))
 
-print('calling kg')
-print(kg(5))
-print(kg(10))
+    print('calling kg')
+    print(kg(5))
+    print(kg(10))
 
-print('calling f')
-print(f(32))
-print(f(70))
+    print('calling f')
+    print(f(32))
+    print(f(70))
 
-print('calling pro')
-print(pro(2, 1))
-print(pro(3,4))
+    print('calling pro')
+    print(pro(2, 1))
+    print(pro(3,4))
 
-print('calling div')
-print(div(6,3))
-print(div(60, 3))
+    print('calling div')
+    print(div(6,3))
+    print(div(60, 3))
 
-print('calling sum')
-print(nsum(1,2,3))
-print(nsum(10,24,3))
+    print('calling sum')
+    print(nsum(1,2,3))
+    print(nsum(10,24,3))
 
-print('calling sq')
-print(sq(2, 'sq'))
-print(sq(100, 'q'))
+    print('calling sq')
+    print(sq(2, 'sq'))
+    print(sq(100, 'q'))
 
-print('calling slen')
-print(slen('Hello'))
-print(slen('Two'))
+    print('calling slen')
+    print(slen('Hello')) 
+    print(slen('Two'))
 
-print('calling con')
-print(con('Hello, ', 'there!'))
-print(con('Scared ', 'you!'))
+    print('calling con')
+    print(con('Hello, ', 'there!'))
+    print(con('Scared ', 'you!'))
 
-print('calling w')
-w('Function_file1')
-w('Function_file2')
- 
+    print('calling w')
+    w('Function_file1')
+    w('Function_file2')
+
+if __name__== "__main__":
+    main() 
